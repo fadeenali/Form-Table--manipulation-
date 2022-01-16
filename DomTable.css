@@ -1,0 +1,56 @@
+body {
+    --bs-body-bg: rgb(231, 152, 142);
+}
+
+form {
+    background-color: rgba(27, 30, 36, 0.2);
+    border-radius: 10px;
+    margin-top: 70px;
+    margin-left: 400px;
+}
+
+table {
+    margin-top: 30px;
+    margin-left: 50px;
+}
+
+.delete {
+    background-color: aqua;
+    color: blue;
+}
+
+.delete:hover {
+    background-color: blanchedalmond;
+    color: white;
+}
+
+.edit {
+    background-color: #ffc107;
+    color: blue;
+}
+
+.edit:hover {
+    background-color: blanchedalmond;
+    color: white;
+}
+
+title {
+    font-family: 'Archivo Black', sans-serif;
+    font-weight: bolder;
+}
+
+@media only screen and (max-width: 1200px) {
+    form {
+        background-color: rgba(27, 30, 36, 0.4);
+        border-radius: 10px;
+        margin-top: 70px;
+        margin-left: 250px;
+    }
+}
+
+@media only screen and (max-width: 1000px) {
+    form {
+        margin-left: 50px;
+        margin-top: 150px;
+    }
+}
